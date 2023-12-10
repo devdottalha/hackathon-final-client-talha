@@ -1,0 +1,28 @@
+/* // create var in css */
+:root {
+  --color-100: #117c6f;
+  --color-200: #209c8e;
+  --color-300: #2fc4b2;
+  --color-400: #8de5db;
+  --color-500: #82f0eb;
+}
+
+body {
+  background-color: var(--color-400);
+}
+.doc-btn {
+  background-color: var(--color-500);
+  color: var(--color-100);
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-weight: 500;
+}
+
+.link-text {
+  color: var(--color-100);
+  text-decoration: none;
+}
